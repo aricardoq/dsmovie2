@@ -26,17 +26,47 @@
     </header>
 
     <main>
-        <section id="dsmovie-cardlist" >
+        <section id="dsmovie-cardlist">
 
             <div class="container dsmovie-form-container">
                 <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
                     <div class="dsmovie-card">
                         <img src="https://br.web.img3.acsta.net/img/cb/9e/cb9e4b875d7821c0e1147476c82a28ae.jpg"
                             alt="batman">
-                        <div class="dsmovie-card-description">
+
+                        <div class="form-group dsmovie-form-description">
                             <h3>Batman</h3>
+                            <form class="dsmovie-form">
+
+                                <div class="dsmovie-form-group">
+                                    <label for="email">Informe seu email</label>
+                                    <input type="email" id="email">
+                                </div>
+
+                                <div class="form-group dsmovie-form-group">
+                                    <label for="score">Informe sua avaliação</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+
+                                    </select>
+                                </div>
+                                <div class="dsmovie-form-btn-container">
+                                    <button class="dsmovie-btn" type="submit">salvar</button>
+
+                                    <a class="dsmovie-btn" href="index.html">Cancelar</a>
+                                </div>
+                            </form>
+
                             <!-- <button>Avaliar</button> -->
-                            <a class="dsmovie-btn" href="index.html">Cancelar</a>
+                            
+
+
+
+
                         </div>
                     </div>
                 </div>
